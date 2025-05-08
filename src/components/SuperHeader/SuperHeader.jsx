@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { MEDIAQUERIES } from '../../constants';
 
 import { COLORS } from '../../constants';
 
@@ -32,6 +33,12 @@ const Wrapper = styled.div`
   height: 40px;
   padding-left: 32px;
   padding-right: 32px;
+
+
+  @media ${MEDIAQUERIES.tabletAndDown}{
+  display: none; 
+  }
+
 `;
 
 const MarketingMessage = styled.span`

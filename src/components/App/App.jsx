@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import Header from '../Header';
 import ShoeIndex from '../ShoeIndex';
+import { MEDIAQUERIES } from '../../constants';
 
 const App = () => {
   const [sortId, setSortId] = React.useState('newest');
