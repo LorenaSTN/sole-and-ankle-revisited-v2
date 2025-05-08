@@ -20,6 +20,14 @@ const App = () => {
 
 const Main = styled.main`
   padding: 64px 32px;
+
+  @media ${MEDIAQUERIES.tabletAndDown}{
+  padding: 48px 32px;
+  }
+
+    @media ${MEDIAQUERIES.mobileAndDown}{
+  padding: 48px 16px;
+  }
 `;
 
 export default App;
